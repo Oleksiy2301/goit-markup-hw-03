@@ -1,3 +1,18 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style-type: none;
 }
@@ -10,20 +25,25 @@ button {
     cursor: pointer;
 }
 
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background: #FFFFFF;
 }
 
-/* nav-section */
+/* header-section */
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -32,16 +52,16 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px; /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .menu-link {
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -59,8 +79,8 @@ address {
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -81,7 +101,8 @@ address {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -90,6 +111,8 @@ address {
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
 .btn:hover,
@@ -97,28 +120,30 @@ address {
     background: #404BBF;
 }
 
-/* second-section */
+/* section about */
+
 .plan-list-item {
     background:  #FFF;
+    width: 264px;
 }
 
 .plan-list-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.4px;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
 }
 
 .plan-list-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }
 
-/* third-section */
+/* team section */
 .team {
     background-color: #F4F4FD;
 }
@@ -132,7 +157,7 @@ address {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -141,24 +166,24 @@ address {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .team-list-text {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
 }
 
-/* fourth-section */
+/* Portfolio-section */
 .portfolio-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
-    letter-spacing: 0.72px;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -167,7 +192,7 @@ address {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list-text {
@@ -175,7 +200,7 @@ address {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 /* footer-section */
@@ -189,7 +214,7 @@ address {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -197,6 +222,6 @@ address {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02;
 }
