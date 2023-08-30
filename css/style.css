@@ -44,6 +44,19 @@ body {
     background: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* header-section */
 
 .page-header {
@@ -153,6 +166,11 @@ body {
 
 /* section about */
 
+.plan-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .plan-list-item {
     background:  #FFF;
     width: 264px;
@@ -178,6 +196,12 @@ body {
 .team {
     background-color: #F4F4FD;
 }
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .team-list-item {
     background-color: #FFFFFF;
 }
@@ -209,6 +233,13 @@ body {
 }
 
 /* Portfolio-section */
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+}
 .portfolio-title {
     color: #2E2F42;
     font-size: 36px;
@@ -216,6 +247,8 @@ body {
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .portfolio-list-title {
