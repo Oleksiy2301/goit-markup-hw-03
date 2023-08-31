@@ -62,6 +62,7 @@ body {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 .page-header-container {
     display: flex;
@@ -92,11 +93,12 @@ body {
 
 .page-nav {
     display: flex;
+    align-items: center;
 }
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link {
@@ -115,7 +117,7 @@ body {
 
 .address {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .address-link {
@@ -137,6 +139,8 @@ body {
     background: #2E2F42;
     color: #404bbf;
     min-height: 600px;
+    padding: 188px 0;
+
 }
 
 .main-title {
@@ -146,8 +150,11 @@ body {
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
-    margin-top: 195px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+    max-width: 496px;
 }
 
 .btn {
@@ -161,6 +168,9 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    min-width: 169px; 
+    height: 56px;
 }
 
 .btn:hover,
@@ -170,6 +180,10 @@ body {
 
 /* section about */
 
+.plan {
+    padding: 120px 0;
+}
+
 .plan-list {
     display: flex;
     justify-content: space-between;
@@ -177,8 +191,7 @@ body {
 
 .plan-list-item {
     background:  #FFF;
-    width: calc((100% - 72px) / 4);
-    margin-top: 60px;
+    gap: 24px;
 }
 
 .plan-list-title {
@@ -301,7 +314,12 @@ body {
 /* footer-section */
 .footer {
     background: #2e2f42;
-    min-height: 310px;
+    padding: 100px 0;
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-logo-footer {
