@@ -38,11 +38,6 @@ button {
     overflow: hidden;
 }
 
-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -53,6 +48,7 @@ body {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .container {
@@ -244,10 +240,6 @@ body {
     margin-bottom: 72px;
 }
 
-.team-list-photo {
-    margin-bottom: 32px;
-}
-
 .team-list-name {
     color: #2E2F42;
     font-size: 20px;
@@ -312,7 +304,6 @@ body {
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
 }
 
 /* footer-section */
